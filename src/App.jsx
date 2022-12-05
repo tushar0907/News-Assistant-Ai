@@ -4,7 +4,8 @@ import wordsToNumbers from 'words-to-numbers';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
 import logo from './images/logo.png';
-import {NewsCards, Modal} from './components';
+import NewsCards from './components/NewsCards/NewsCards';
+import Modal from '@material-ui/core';
 import useStyles from './styles';
 
 const App=() => {
