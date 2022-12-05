@@ -5,7 +5,7 @@ import alanBtn from '@alan-ai/alan-sdk-web';
 
 import logo from './images/logo.png';
 import NewsCards from './components/NewsCards/NewsCards';
-import Modal from '@material-ui/core';
+import {Modal} from './components';
 import useStyles from './styles';
 
 const App=() => {
